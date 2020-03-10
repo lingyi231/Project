@@ -1,4 +1,4 @@
-
+第一种
 where 不能对聚合函数进行条件筛选
 having 配合group by 可以对聚合函数进行筛选
 select country,avg(attack) from sanguo group by country having avg(attack) >270
